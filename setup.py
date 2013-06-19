@@ -1,13 +1,13 @@
 from setuptools import setup
 
-setup(name='YourAppName', version='1.0',
-      description='OpenShift Python-3.3 Community Cartridge based application',
-      author='Your Name', author_email='ramr@example.org',
-      url='http://www.python.org/sigs/distutils-sig/',
+setup(name='NeuroTurk', version='0.1',
+      description='Neuroscience experiments for Amazon Mechanical Turk',
+      author='Alejandro Pulver', author_email='alepulver@gmail.com',
+      url='https://github.com/alepulver/neuro-turk',
 
       #  Uncomment one or more lines below in the install_requires section
       #  for the specific client drivers/modules your application needs.
-      install_requires=['WebOb',
+      install_requires=['Django>=1.5',
                         #  'mysql-connector-python',
                         #  'pymongo',
                         #  'psycopg2',
