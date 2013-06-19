@@ -1,4 +1,4 @@
-# Django settings for website project.
+# Django settings for neuroturk project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -83,7 +83,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = ')wn6c4=@fszur*k9)3#gcz6#1n&pc)necrtknc#*6!l*bs)+$g'
+SECRET_KEY = '*!+*&vt)l7x@arvw%q9%$@ju%vu2oiz$#b99570n=@g-8%2!3+'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -102,10 +102,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'website.urls'
+ROOT_URLCONF = 'neuroturk.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'website.wsgi.application'
+WSGI_APPLICATION = 'neuroturk.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
