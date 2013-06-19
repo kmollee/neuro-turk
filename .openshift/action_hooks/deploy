@@ -4,6 +4,6 @@
 # up again.  This script gets executed directly, so it could be python, php,
 # ruby, etc.
 
-source $OPENSHIFT_HOMEDIR/python-3.3/virtenv/bin/activate
+source $OPENSHIFT_HOMEDIR/python-3.3/virtenv/venv/bin/activate
 cd $OPENSHIFT_REPO_DIR/wsgi/$OPENSHIFT_APP_NAME
 python manage.py syncdb --noinput
