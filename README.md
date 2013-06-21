@@ -2,7 +2,7 @@ A framework for neuroscience experiments on the web.
 
 # Introduction
 
-...
+We are using Amazon Turk to get people involved in the experiment, but it must be hosted somewhere. It could have been done at Amazon servers, but we opted for [OpenShift](https://www.openshift.com/) after a recent lock-in problem with App Engine. See [OpenShift vs App Engine](http://blog.yeradis.com/2012/11/hello-red-hat-openshift-bye-bye-google.html). The source code is available for a local installation [here](http://openshift.github.io/).
 
 # Installation
 
@@ -34,6 +34,8 @@ python neuro-turk/wsgi/neuroturk/manage.py runserver
 ```
 
 Now follow this link: http://localhost:8000/
+
+**TODO**: add local server info with WebOb/etc
 
 # Links
 
