@@ -40,3 +40,4 @@ Now follow this link: http://localhost:8000/
 - https://github.com/johnmcdonnell/psiTurk
 - http://experimentalturk.wordpress.com/2013/04/22/turkgate/
 - http://gureckislab.org/blog/?p=2557
+- http://xcorr.net/2013/04/17/evaluating-ides-for-scientific-python/
