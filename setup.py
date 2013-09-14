@@ -9,6 +9,7 @@ setup(name='NeuroTurk', version='0.1',
       #  for the specific client drivers/modules your application needs.
       install_requires=['WebOb',
                         'Django>=1.5',
+                        'django-nose',
                         #  'mysql-connector-python',
                         #  'pymongo',
                         #  'psycopg2',
